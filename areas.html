@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="grid.css" rel="stylesheet">
+    <style>
+        .grid {
+            grid-template-rows: [top] 100px [main] 1fr [footer] 50px [bottom];
+            grid-template-columns: [left nav] 200px [middle main] 1fr [right];
+            width: 600px;
+            height: 400px;
+        }
+        #title {
+            grid-row: top;
+            grid-column: left / right;
+        }
+        #nav {
+            grid-row: main / bottom;
+            grid-column: nav;
+        }
+        #main {
+            grid-row: main
+            grid-column: main;
+        }
+        #footer {
+            grid-row: footer;
+            grid-column: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+      <div id="title">title</div>
+      <div id="nav">nav</div>
+      <div id="main">main</div>
+      <div id="footer">footer</div>
+    </div>
+</body>
+</html>
