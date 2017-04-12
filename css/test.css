@@ -1,8 +1,14 @@
-/*# sourceMappingURL=test.css.map */
-
+/*#sourceMappingURL=test.css.map */
+*, *:before, *:after{
+	-moz-box-sizing: border-box;  
+	-webkit-box-sizing: border-box;  
+	box-sizing: border-box;
+}
 .grid div {
 	float: left;
 	width: 50%;
+	padding: 20px;
+	background-color: #AD9B9B;
 }
 .grid:after {
 	content: "";
