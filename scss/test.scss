@@ -1,10 +1,5 @@
-.grid > div {
-	outline: 1px solid white;
-	height: 100px;
-}
-
 section {
-  max-width: 940px;
+  max-width: 400px;
   margin: 0 auto;
   display: flex;
 }
@@ -43,10 +38,19 @@ body {
 
 .column {
   padding: 10px 0;
-  background-color: rgba(255, 0, 0, 0.25);
   text-align: center;
-  
-  border: 1px solid transparentize(white, 0.25);
-  background-color: transparentize(white, 0.8);
-  color: transparentize(white, 0.1);
+}
+
+.columntop {
+  padding-bottom: 100px;
+  flex-grow: 1;
+  flex-shrink: 1;	
+  text-align: center;
+}
+
+.columnbottom {
+  padding-top: 100px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  text-align: center;
 }
