@@ -1,3 +1,14 @@
+html, body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #b04, #f80) fixed;
+}
+
+/*! flexboxing */	
+
 section {
   max-width: 400px;
   margin: 0 auto;
@@ -23,34 +34,56 @@ section:nth-of-type(6) .column:nth-of-type(2) {
   flex-basis: 66px;
 }
 
-/* OTHER STYLES */
-  
-html, body {
-  height: 100%;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Raleway', sans-serif;
-  padding: 10px;
-  background: linear-gradient(135deg, #b04, #f80) fixed;
-}
-
 .column {
   padding: 10px 0;
   text-align: center;
 }
 
-.columntop {
-  padding-bottom: 100px;
-  flex-grow: 1;
-  flex-shrink: 1;	
+.fill-height-or-more-top {
+  min-height: 25%;
+  padding-top: 20px;
+  justify-content: flex-start;
+  flex-direction: column;
   text-align: center;
 }
 
-.columnbottom {
-  padding-top: 100px;
-  flex-grow: 1;
-  flex-shrink: 1;
+.fill-height-or-more-bottom {
+  min-height: 30%;
+  padding-top: 20px;
+  justify-content: flex-end;
+  flex-direction: column;
   text-align: center;
+}
+
+/*! browser window border and media query */
+
+
+#top, #bottom, #left, #right {
+	background: #8B7979;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+@media 
+
+/* Fairly small screens including iphones */
+only screen and (max-width: 500px),
+
+/* iPads */
+only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+
+{
+	#top, #bottom, #left, #right { display: none; 
 }
