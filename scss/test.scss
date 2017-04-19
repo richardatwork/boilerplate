@@ -4,24 +4,30 @@ html, body {
 }
 
 body {
-  background: linear-gradient(135deg, #e4f26a, #ede6c9) fixed;
+  background-image:url('../assets/silverLamps2.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
+/*! centres everthing in the viewport */	
+
 .flex{
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 
 .flex > *{
-    min-width: 400px;
-    min-height: 100px;
+  min-width: 400px;
+  min-height: 100px;
 }
 
-/*! flexboxing */	
+/*! flexboxing - this fixes the width of the flexboxes */	
 
 section {
   max-width: 400px;
@@ -29,6 +35,8 @@ section {
   display: flex;
 
 }
+
+/*! flexboxing - these are the box controls */	
 
 .column {
   flex-flow: row;
@@ -38,9 +46,6 @@ section {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
-  border-style: solid;
-  border-width: 1px;
-
 }
 
 section:nth-of-type(5) .column:first-of-type {
@@ -57,20 +62,8 @@ section:nth-of-type(6) .column:nth-of-type(2) {
 
 .column {
   padding: 20px;
+  background-color: rgba(121, 124, 109, 0.7);  
   text-align: center;
-}
-
-.columnThinner {
-  flex-flow: row;
-  align-items: center;
-  justify-content: center;
-  margin: 2px;
-  flex-grow: 1;
-  flex-shrink: 1;
-  text-align: center;
-  min-height: 200px;
-  border-style: double;
-  border-width: 5px;
 }
 
 /*! browser window border and media query */

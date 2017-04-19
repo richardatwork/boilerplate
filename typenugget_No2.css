@@ -10,7 +10,7 @@
 body {
 	font-family: 'Emblema One';
 	font-size: 13px;
-	color: #75ba16;
+	color: #E2E649;
 	background-color: #FFF;
 	line-height: 1.735;
 	text-align: center;
@@ -30,7 +30,6 @@ h1 {
 	align-self: center;
 	margin-top: 0.75em;
 	margin-bottom: 0.5em;
-	color: #5C644F;
 }
 
 h2 {
@@ -38,13 +37,12 @@ h2 {
 	font-size: 3em;
 	font-weight: 600;
 	letter-spacing: 0.1em;
-	color: #5C644F;
 }
 
 h3 {
 	font-family: 'Cormorant Infant';
-	font-size: 2.25em;
-	font-weight: 800;
+	font-size: 1.8em;
+	font-weight: 300;
 	margin-top: 0.4em;
 	margin-bottom: 0.4em;
 }
@@ -53,7 +51,6 @@ h4 {
 	font-family: 'Allerta Stencil';
 	font-weight: 100;
 	text-transform: uppercase;
-	color: #af3b18;
 	font-size: 1em;
 	line-height: 1.2em;
 	letter-spacing: 0.2em;
@@ -68,8 +65,8 @@ h5 {
 }
 
 h6 {
-	font-size: 1.2em;
-	color: #5C644F;
+	font-size: 1em;
+	line-height: 1.6em;
 	font-weight: 300;
 	margin-top: 1em;
 	margin-bottom: 1em;
