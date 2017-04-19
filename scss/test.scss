@@ -13,7 +13,7 @@ body {
 
 /*! centres everthing in the viewport */	
 
-.flex{
+/*.flex{
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -26,6 +26,41 @@ body {
   min-width: 400px;
   min-height: 100px;
 }
+
+
+/*! flexboxing - topnav */	
+
+nav ul {
+  display: flex;
+  display: -ms-flex;
+  display: -webkit-flex;
+  list-style: none;
+  height: auto;
+}
+
+nav ul li {
+  margin: 0 10px 0 0;
+  flex: 1 auto;
+}
+
+nav ul li a {
+  margin: 0;
+  padding: 5px 40px 15px;
+  display: block;
+  color: #fff;
+  text-align: right;
+  text-decoration: none;
+  font-family: "museo-slab", arial;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+
+@media only screen and (min-width: 920px)  {
+  
+}
+
 
 /*! flexboxing - this fixes the width of the flexboxes */	
 
