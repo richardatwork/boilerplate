@@ -1,0 +1,95 @@
+/*! Generated using Type Nugget v0.2.6 | typenugget.com */
+/*! Import Foundry Fonts */@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant:300,300italic,400,400i,500,500italic,600,600italic,700,700italic');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono:400');
+@import url('https://fonts.googleapis.com/css?family=Emblema+One:400');
+
+/*! Start Type Nugget Styles */
+
+body {
+	font-family: 'Emblema One';
+	font-size: 13px;
+	color: #C6ABAB;
+	/* background-color: #FFF; */
+	line-height: 1.735;
+	text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: 600;
+	line-height: 1.2;
+	font-family: 'Emblema One';
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 300;
+	text-transform: uppercase;
+	align-self: center;
+	margin-top: 0.75em;
+	margin-bottom: 0.5em;
+}
+
+h2 {
+	font-size: 1em;
+	font-weight: 300;
+	
+}
+
+h3 {
+	font-size: 2.25em;
+	font-weight: 800;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+}
+
+h4 {
+	font-family: 'Cutive Mono';
+	color: #FFFFFF;
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+h5 {
+	font-size: 1.06em;
+	font-weight: 700;
+	margin-top: 0.94em;
+	margin-bottom: 0.94em;
+}
+
+h6 {
+	font-size: 1em;
+	font-weight: 700;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+p {
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+	font-family: 'Cormorant Infant';
+	font-size: 1.25em;
+}
+
+strong {
+	font-weight: 700;
+}
+
+em {
+	font-style: italic;
+}
+
+a {
+	color: #790cf4;
+}
+
+ul,ol {
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+	padding-left: 1.1em;
+	font-family: 'Cutive Mono';
+}
+
+li {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}

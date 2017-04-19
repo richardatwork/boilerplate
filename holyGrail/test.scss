@@ -1,0 +1,37 @@
+/*! flexboxing - this fixes the width of the flexboxes */	
+
+section {
+  margin: 0 auto;
+  display: flex;
+
+}
+
+/*! flexboxing - these are the box controls */	
+
+.column {
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  /* margin: 2px; */
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+section:nth-of-type(5) .column:first-of-type {
+  flex-grow: 2;
+  flex-shrink: 2;
+  flex-basis: 22px;
+}
+
+section:nth-of-type(6) .column:nth-of-type(2) {
+  flex-grow: 4;
+  flex-shrink: 4;
+  flex-basis: 66px;
+}
+
+.column {
+  padding: 20px;
+  background-color: rgba(121, 124, 109, 0.7);  
+  text-align: center;
+}
