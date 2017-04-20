@@ -2,6 +2,7 @@
 /*! Import Foundry Fonts */@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant:300,300italic,400,400i,500,500italic,600,600italic,700,700italic');
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono:400');
 @import url('https://fonts.googleapis.com/css?family=Emblema+One:400');
+@import url('https://fonts.googleapis.com/css?family=Signika');
 
 /*! Start Type Nugget Styles */
 
@@ -44,12 +45,13 @@ h3 {
 }
 
 h4 {
-	font-family: 'Cutive Mono';
-	color: #FFFFFF;
+	font-family: 'Signika';
+	color: #000;
 	font-size: 1.2em;
 	font-weight: 400;
-	font-style: italic;
-	line-height: 1.3em;
+	line-height: 1.2em;
+	margin-top: 1em;
+	text-transform: uppercase;
 }
 
 h5 {
@@ -70,7 +72,11 @@ p {
 	margin-top: 1em;
 	margin-bottom: 1.5em;
 	font-family: 'Cormorant Infant';
-	font-size: 1.25em;
+	font-size: 1.4em;
+	color: #000;
+	font-style: italic;
+	line-height: 1.4em;
+	margin-right: 10px;
 }
 
 strong {
@@ -81,9 +87,25 @@ em {
 	font-style: italic;
 }
 
-a {
-	color: #790cf4;
+ /* unvisited link */
+a:link {
+    color: #FFFCB7;
 }
+
+/* visited link */
+a:visited {
+    color: #C40048;
+}
+
+/* mouse over link */
+a:hover {
+    color: #C40048;
+}
+
+/* selected link */
+a:active {
+    color: #FFFCB7;
+} 
 
 ul,ol {
 	margin-top: 1em;
@@ -95,10 +117,6 @@ ul,ol {
 li {
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
-}
-
-hr {
-	border-top: 3px double rgba(212,233,243,0.5);
 }
 
 @media (max-width: 480px){
