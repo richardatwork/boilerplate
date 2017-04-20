@@ -3,10 +3,16 @@
 	padding: 0;
 }
 body{
-	padding: 2.5em 4em 2.5em 4em;
+	padding: 0 4em 0 4em;
+    background-image: url(assets/lights.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-size: cover;
 	background-color: #BBC1C5;
 	
 }
+
 header{
 	/* background-color: rgba(75,59,59,0.8); */
 	text-align: center;
@@ -14,8 +20,8 @@ header{
 
 footer{
 	/* background-color: rgba(75,59,59,0.5); */
-	padding: 1em 1em 1em 0;
-	text-align: center;
+	padding: 1em 1em 3em 1em;
+	text-align: left;
 }
 
 .container{
@@ -25,7 +31,7 @@ footer{
 	display: -webkit-flex;
 	display: flex;
 	width: 100%;
-	flex-direction: column;
+	flex-direction: row;
 	flex: 1;
 }
 
@@ -126,7 +132,7 @@ footer{
 
 
 #top, #bottom, #left, #right {
-	background: #8B7979;
+	background: #3D3C3B;
 	position: fixed;
 	}
 	#left, #right {
